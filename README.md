@@ -20,11 +20,21 @@ Conjunto de 40 ejercicios que repasan los fundamentos de Python: funciones, estr
 
 ## Ejecución
 
-Desde la terminal, en la carpeta del archivo:
+1. Instalar Python 3.6 o superior, si no lo está ya (descarga en [python.org](https://www.python.org/downloads/)). Para comprobarlo, basta con ejecutar `python --version` en una terminal.
+2. Descargar el proyecto desde GitHub, con el botón *Code → Download ZIP* (y descomprimir la carpeta), o bien clonando el repositorio:
 
+```bash
+git clone https://github.com/raquelgarciagarci-maker/Proyecto_Katas_Python.git
 ```
+
+3. Abrir una terminal en la carpeta del proyecto, que es la que contiene el archivo `Proyecto_Katas_Python.py`.
+4. Ejecutar el programa (en algunos sistemas el comando es `python3`):
+
+```bash
 python Proyecto_Katas_Python.py
 ```
+
+También es posible abrir el archivo en un editor como Visual Studio Code y ejecutarlo desde allí.
 
 El programa se ejecuta de principio a fin, en el orden de los ejercicios, y muestra cada resultado por pantalla.
 
