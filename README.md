@@ -1,4 +1,4 @@
-# Katas de Python
+# Proyecto_Katas_Python
 
 Conjunto de 40 ejercicios que repasan los fundamentos de Python: funciones, estructuras de datos, programación funcional, recursividad, manejo de excepciones y programación orientada a objetos. Todas las soluciones están reunidas en un único archivo `.py`, ordenadas según la numeración del enunciado.
 
@@ -23,7 +23,7 @@ Conjunto de 40 ejercicios que repasan los fundamentos de Python: funciones, estr
 Desde la terminal, en la carpeta del archivo:
 
 ```
-python nombre_del_archivo.py
+[`Proyecto_Katas_Python.py`](./Proyecto_Katas_Python.py)
 ```
 
 El programa se ejecuta de principio a fin, en el orden de los ejercicios, y muestra cada resultado por pantalla.
