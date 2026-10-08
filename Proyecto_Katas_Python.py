@@ -648,7 +648,7 @@ mi_arbol.quitar_rama(2)        # 6. Retirar la rama situada en la posición 2.
 mi_arbol.info_arbol()              # 7. Obtener información sobre el árbol.
 
 
-# 36. Crea la clase UsuarioBanco ,representa a un usuario de un banco con su nombre, saldo y si tiene o no cuenta corriente. Proporciona métodos para realizar operaciones como retirar dinero, transferir dinero desde otro usuario y agregar dinero al saldo.
+# 35. Crea la clase UsuarioBanco ,representa a un usuario de un banco con su nombre, saldo y si tiene o no cuenta corriente. Proporciona métodos para realizar operaciones como retirar dinero, transferir dinero desde otro usuario y agregar dinero al saldo.
 
 class UsuarioBanco:
     """
@@ -716,7 +716,7 @@ except ValueError as error:
 usuario1.retirar_dinero(50) 
 
 
-#37. Crea una función llamada procesar_texto que procesa un texto según la opción especificada: contar_palabras , reemplazar_palabras , eliminar_palabra . Estas opciones son otras funciones que tenemos que definir primero y llamar dentro de la función procesar_texto .
+#36. Crea una función llamada procesar_texto que procesa un texto según la opción especificada: contar_palabras , reemplazar_palabras , eliminar_palabra . Estas opciones son otras funciones que tenemos que definir primero y llamar dentro de la función procesar_texto .
 
 def contar_palabras(texto):
     """
@@ -798,7 +798,7 @@ print(procesar_texto(texto, "reemplazar", "perro", "lobo"))
 print(procesar_texto(texto, "eliminar", "en la boca"))
 
 
-# 38. Genera un programa que nos diga si es de noche, de día o tarde según la hora proporcionada por el usuario.
+# 37. Genera un programa que nos diga si es de noche, de día o tarde según la hora proporcionada por el usuario.
 
 try:
     texto_hora = input("Indica qué hora es (formato hh:mm): ")
@@ -821,7 +821,7 @@ except IndexError:
     print("Formato no válido. Asegúrate de incluir los dos puntos, ej: 16:00.") #Si el usuario indica una hora sin el separador de los dos puntos
 
 
-# 39. Escribe un programa que determine qué calificación en texto tiene un alumno en base a su calificación numérica. Las reglas de calificación son:
+# 38. Escribe un programa que determine qué calificación en texto tiene un alumno en base a su calificación numérica. Las reglas de calificación son:
     # 0 - 69 insuficiente
     # 70 - 79 bien
     # 80 - 89 muy bien
@@ -845,7 +845,7 @@ except ValueError:
     print("Debes introducir un número válido.")
 
 
-# 40. Escribe una función que tome dos parámetros:  figura (una cadena que puede ser "rectangulo" , "circulo" o "triangulo" ) y datos (una tupla con los datos necesarios para calcular el área de la figura).
+# 39. Escribe una función que tome dos parámetros:  figura (una cadena que puede ser "rectangulo" , "circulo" o "triangulo" ) y datos (una tupla con los datos necesarios para calcular el área de la figura).
 
 def calcular_area(figura, datos):
     """
@@ -883,7 +883,7 @@ except ValueError as error:
     print(f"Error: {error}")
 
 
-# 41. En este ejercicio, se te pedirá que escribas un programa en Python que utilice condicionales para determinar el monto final de una compra en una tienda en línea, después de aplicar un descuento. El programa debe hacer lo siguiente:
+# 40. En este ejercicio, se te pedirá que escribas un programa en Python que utilice condicionales para determinar el monto final de una compra en una tienda en línea, después de aplicar un descuento. El programa debe hacer lo siguiente:
     # 1. Solicita al usuario que ingrese el precio original de un artículo.
     # 2. Pregunta al usuario si tiene un cupón de descuento (respuesta sí o no).
     # 3. Si el usuario responde que sí, solicita que ingrese el valor del cupón de descuento.
