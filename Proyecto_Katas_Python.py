@@ -223,7 +223,7 @@ except ListaVaciaError as error:
 # 11. Escribe un programa que pida al usuario que introduzca su edad. Si el usuario ingresa un valor no numérico o un valor fuera del rango esperado (por ejemplo, menor que 0 o mayor que 120, maneja las excepciones adecuadamente.
 
 try:
-    edad = int(input("Indique su edad:"))  # Solicitamos al usuario que indique su edad y la convertimos a entero.
+    edad = int(input("Indique su edad: "))  # Solicitamos al usuario que indique su edad y la convertimos a entero.
     if edad < 0 or edad > 120:  # Comprobamos si la edad indicada por el usuario está fuera del rango esperado.
         raise ValueError("La edad debe estar entre 0 y 120.") # Si la edad está fuera del rango, lanzamos una excepción ValueError con un mensaje personalizado.
     print(f"Su edad es: {edad}") # Si la edad está dentro del rango, mostramos la edad indicada por el usuario.
